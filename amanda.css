@@ -1,0 +1,59 @@
+.background{
+    background-color: rgb(128, 148, 148);
+}
+
+.center{
+    padding: 10px;
+    display:block;
+    margin:0 auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+
+@media screen and (min-width: 992px) {
+}
+
+}
+.countdown{
+    font-size: o.8r3em;
+    font-weight: 600;
+    text-align: center;
+    align-self: center;
+    background:rgb(33, 66, 128);
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+padding: 1em;    
+display: inline-block;
+background-color: #0b558a; /* Background color */
+padding: 10px; /* Adjust padding as needed */
+margin: 5px; /* Adjust margin as needed */
+border-radius: 5px; /* Add border radius for rounded corners */
+@media screen and(max-width600px) {
+    
+}
+}
+
+
+
+.days{
+font-size: 20px;
+align-self: center;
+}
+.minutes{
+font-size: 20px;
+align-self: center;
+}
+.hours{
+font-size: 20px;
+align-self: center;
+}
+.seconds{
+font-size: 20px;
+align-self: center;
+}
+
